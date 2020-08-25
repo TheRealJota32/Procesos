@@ -18,11 +18,11 @@ import java.sql.SQLException;
 public class Conector {
 
     //db
-    private final String DB_URL = "jdbc:mysql://localhost:3306/clinica?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC&useSSL=false";
+    private final String DB_URL = "jdbc:mysql://35.225.206.105:3306/clinica?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC&useSSL=false";
 
     //credenciales
     private final String USER = "root";
-    private final String PASS = "101000aj";
+    private final String PASS = "admin";
 
     private static Conector conector;
 
